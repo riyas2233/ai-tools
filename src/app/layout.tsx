@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -52,12 +54,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://aitoolsdirectory.com" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#3b82f6" />
+        <meta name="theme-color" content="#0f172a" />
         
         {/* Google Analytics - Replace with your tracking ID */}
         <script
@@ -75,8 +77,24 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={inter.className}>
-        {children}
+      <body className={`${inter.className} bg-gray-950 text-gray-100 antialiased`}>
+        <div className="relative min-h-screen">
+          {/* Background gradient */}
+          <div className="fixed inset-0 bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 -z-10" />
+          
+          {/* Animated background elements */}
+          <div className="fixed inset-0 overflow-hidden -z-10">
+            <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl animate-pulse" />
+            <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }} />
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '4s' }} />
+          </div>
+          
+          <Header />
+          <main className="relative">
+            {children}
+          </main>
+          <Footer />
+        </div>
         
         {/* Structured Data */}
         <script

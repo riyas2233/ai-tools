@@ -113,5 +113,122 @@ export const categories: Category[] = [
     slug: 'education',
     toolCount: getToolCountByCategory('Education'),
     subcategories: ['Language Learning', 'Tutoring', 'Course Creation', 'Assessment']
+  },
+  {
+    id: '13',
+    name: 'Healthcare',
+    description: 'AI tools for medical diagnosis and healthcare management',
+    icon: '🏥',
+    slug: 'healthcare',
+    toolCount: getToolCountByCategory('Healthcare'),
+    subcategories: ['Medical Diagnosis', 'Drug Discovery', 'Patient Care', 'Medical Imaging']
+  },
+  {
+    id: '14',
+    name: 'Finance',
+    description: 'AI-powered financial analysis and trading tools',
+    icon: '💰',
+    slug: 'finance',
+    toolCount: getToolCountByCategory('Finance'),
+    subcategories: ['Trading Bots', 'Risk Analysis', 'Portfolio Management', 'Fraud Detection']
+  },
+  {
+    id: '15',
+    name: 'Legal',
+    description: 'AI tools for legal research and document analysis',
+    icon: '⚖️',
+    slug: 'legal',
+    toolCount: getToolCountByCategory('Legal'),
+    subcategories: ['Contract Analysis', 'Legal Research', 'Document Review', 'Compliance']
+  },
+  {
+    id: '16',
+    name: 'HR & Recruitment',
+    description: 'AI tools for human resources and talent acquisition',
+    icon: '👥',
+    slug: 'hr-recruitment',
+    toolCount: getToolCountByCategory('HR & Recruitment'),
+    subcategories: ['Resume Screening', 'Interview Scheduling', 'Performance Analysis', 'Talent Matching']
+  },
+  {
+    id: '17',
+    name: 'E-commerce',
+    description: 'AI tools for online retail and customer experience',
+    icon: '🛒',
+    slug: 'ecommerce',
+    toolCount: getToolCountByCategory('E-commerce'),
+    subcategories: ['Product Recommendations', 'Price Optimization', 'Inventory Management', 'Customer Support']
+  },
+  {
+    id: '18',
+    name: 'Gaming',
+    description: 'AI tools for game development and gaming experiences',
+    icon: '🎮',
+    slug: 'gaming',
+    toolCount: getToolCountByCategory('Gaming'),
+    subcategories: ['Game AI', 'Procedural Generation', 'Player Analytics', 'Game Testing']
+  },
+  {
+    id: '19',
+    name: 'Real Estate',
+    description: 'AI tools for property analysis and real estate management',
+    icon: '🏠',
+    slug: 'real-estate',
+    toolCount: getToolCountByCategory('Real Estate'),
+    subcategories: ['Property Valuation', 'Market Analysis', 'Virtual Tours', 'Lead Generation']
+  },
+  {
+    id: '20',
+    name: 'Travel',
+    description: 'AI tools for travel planning and booking',
+    icon: '✈️',
+    slug: 'travel',
+    toolCount: getToolCountByCategory('Travel'),
+    subcategories: ['Trip Planning', 'Price Prediction', 'Recommendation Systems', 'Language Translation']
+  },
+  {
+    id: '21',
+    name: 'Productivity',
+    description: 'AI tools to enhance personal and team productivity',
+    icon: '⚡',
+    slug: 'productivity',
+    toolCount: getToolCountByCategory('Productivity'),
+    subcategories: ['Task Management', 'Time Tracking', 'Meeting Assistants', 'Workflow Automation']
+  },
+  {
+    id: '22',
+    name: 'Research',
+    description: 'AI tools for academic and scientific research',
+    icon: '🔬',
+    slug: 'research',
+    toolCount: getToolCountByCategory('Research'),
+    subcategories: ['Literature Review', 'Data Collection', 'Hypothesis Generation', 'Citation Management']
+  },
+  {
+    id: '23',
+    name: 'Social Media',
+    description: 'AI tools for social media management and content creation',
+    icon: '📱',
+    slug: 'social-media',
+    toolCount: getToolCountByCategory('Social Media'),
+    subcategories: ['Content Scheduling', 'Hashtag Generation', 'Audience Analysis', 'Influencer Marketing']
+  },
+  {
+    id: '24',
+    name: 'Translation',
+    description: 'AI-powered language translation and localization tools',
+    icon: '🌐',
+    slug: 'translation',
+    toolCount: getToolCountByCategory('Translation'),
+    subcategories: ['Text Translation', 'Voice Translation', 'Document Translation', 'Website Localization']
+  },
+  {
+    id: '25',
+    name: 'Security',
+    description: 'AI tools for cybersecurity and threat detection',
+    icon: '🔒',
+    slug: 'security',
+    toolCount: getToolCountByCategory('Security'),
+    subcategories: ['Threat Detection', 'Fraud Prevention', 'Access Control', 'Vulnerability Assessment']
   }
 ];

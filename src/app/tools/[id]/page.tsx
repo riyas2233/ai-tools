@@ -116,26 +116,6 @@ export default function ToolDetailPage({ params }: ToolDetailPageProps) {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Main Content */}
             <div className="lg:col-span-2 space-y-8">
-              {/* Screenshots */}
-              {tool.screenshots.length > 0 && (
-                <div className="bg-white rounded-2xl p-6">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-4">Screenshots</h2>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    {tool.screenshots.map((screenshot, index) => (
-                      <div key={index} className="rounded-lg overflow-hidden border border-gray-200">
-                        <Image
-                          src={screenshot}
-                          alt={`${tool.name} screenshot ${index + 1}`}
-                          width={400}
-                          height={300}
-                          className="w-full h-48 object-cover"
-                        />
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-
               {/* Features */}
               <div className="bg-white rounded-2xl p-6">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Key Features</h2>

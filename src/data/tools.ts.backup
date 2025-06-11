@@ -34,7 +34,9 @@ export const aiTools: AITool[] = [
     cons: [
       'Can be expensive for heavy usage',
       'Sometimes generates incorrect information',
-      'Limited real-time data access'
+      'Limited real-time data access'    ],    screenshots: [
+      'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1676573409104-9c6faf52ce7f?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
     ],
     isFeatured: true,
     isNew: false,
@@ -77,6 +79,10 @@ export const aiTools: AITool[] = [
       'No free tier',
       'Learning curve for prompts'
     ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
+    ],
     isFeatured: true,
     isNew: false,
     useCases: ['Digital Art', 'Marketing Materials', 'Concept Art', 'Social Media Content'],
@@ -117,6 +123,10 @@ export const aiTools: AITool[] = [
       'Subscription required',
       'Sometimes suggests incorrect code',
       'Can make developers overly dependent'
+    ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
     ],
     isFeatured: true,
     isNew: false,
@@ -159,6 +169,10 @@ export const aiTools: AITool[] = [
       'Learning curve',
       'Output quality varies'
     ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
+    ],
     isFeatured: false,
     isNew: false,
     useCases: ['Blog Writing', 'Ad Copy', 'Email Marketing', 'Social Media Posts'],
@@ -199,6 +213,10 @@ export const aiTools: AITool[] = [
       'Limited to Notion users',
       'Fewer features than dedicated AI writers',
       'Can be slow sometimes'
+    ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
     ],
     isFeatured: false,
     isNew: true,
@@ -241,6 +259,10 @@ export const aiTools: AITool[] = [
       'Limited integrations',
       'Conservative in responses'
     ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1677756119517-756a188d2d94?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1699042143285-6265ee8c50f6?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
+    ],
     isFeatured: true,
     isNew: true,
     useCases: ['Research', 'Document Analysis', 'Creative Writing', 'Code Review'],
@@ -281,6 +303,10 @@ export const aiTools: AITool[] = [
       'Pay per generation',
       'Limited customization',
       'Strict content policies'
+    ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
     ],
     isFeatured: true,
     isNew: false,
@@ -323,6 +349,10 @@ export const aiTools: AITool[] = [
       'Premium features costly',
       'Sometimes misses context'
     ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
+    ],
     isFeatured: false,
     isNew: false,
     useCases: ['Professional Writing', 'Academic Papers', 'Email Communication', 'Content Creation'],    createdAt: '2024-01-05',
@@ -363,6 +393,10 @@ export const aiTools: AITool[] = [
       'Limited creative writing',
       'Newer platform',
       'Pro features require subscription'
+    ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
     ],
     isFeatured: true,
     isNew: true,
@@ -406,6 +440,10 @@ export const aiTools: AITool[] = [
       'Can look generic',
       'Premium features costly'
     ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
+    ],
     isFeatured: false,
     isNew: false,
     useCases: ['Social Media Graphics', 'Presentations', 'Marketing Materials', 'Brand Design'],
@@ -447,6 +485,10 @@ export const aiTools: AITool[] = [
       'Relatively new',
       'Limited extensions',
       'Learning curve'
+    ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
     ],
     isFeatured: true,
     isNew: true,
@@ -490,6 +532,10 @@ export const aiTools: AITool[] = [
       'Resource intensive',
       'Can be expensive'
     ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
+    ],
     isFeatured: true,
     isNew: true,
     useCases: ['Video Production', 'Content Creation', 'Film Making', 'Social Media Videos'],
@@ -531,6 +577,10 @@ export const aiTools: AITool[] = [
       'Output can be generic',
       'Limited customization',
       'Requires editing'
+    ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1542744094-3a31f272c490?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
     ],
     isFeatured: false,
     isNew: false,
@@ -574,6 +624,10 @@ export const aiTools: AITool[] = [
       'Processing can be slow',
       'Requires good hardware'
     ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
+    ],
     isFeatured: true,
     isNew: true,
     useCases: ['3D Modeling', 'Product Visualization', 'AR/VR Content', 'Video Production'],
@@ -615,6 +669,10 @@ export const aiTools: AITool[] = [
       'Expensive for individuals',
       'Limited customization',
       'AI avatars can look artificial'
+    ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
     ],
     isFeatured: false,
     isNew: false,
@@ -658,6 +716,10 @@ export const aiTools: AITool[] = [
       'Usage limits',
       'Can be misused'
     ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
+    ],
     isFeatured: true,
     isNew: false,
     useCases: ['Audiobook Creation', 'Voiceovers', 'Podcasts', 'Accessibility'],
@@ -699,6 +761,10 @@ export const aiTools: AITool[] = [
       'Can get expensive',
       'Complex workflows need learning',
       'Sometimes unreliable'
+    ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
     ],
     isFeatured: false,
     isNew: true,
@@ -742,6 +808,10 @@ export const aiTools: AITool[] = [
       'Hardware requirements',
       'Learning curve'
     ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
+    ],
     isFeatured: true,
     isNew: false,
     useCases: ['AI Art', 'Concept Design', 'Creative Projects', 'Research'],
@@ -783,6 +853,10 @@ export const aiTools: AITool[] = [
       'Can be addictive',
       'Quality varies',
       'Content moderation issues'
+    ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
     ],
     isFeatured: false,
     isNew: false,
@@ -826,6 +900,10 @@ export const aiTools: AITool[] = [
       'Monthly subscription',
       'Overkill for simple tasks'
     ],
+    screenshots: [
+      'https://images.unsplash.com/photo-1677756119517-756a188d2d94?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
+      'https://images.unsplash.com/photo-1699042143285-6265ee8c50f6?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
+    ],
     isFeatured: true,
     isNew: true,
     useCases: ['Professional Research', 'Complex Analysis', 'Business Planning', 'Technical Writing'],
@@ -854,6 +932,10 @@ export const aiTools: AITool[] = [
     features: ['AI-powered pathology', 'Disease detection', 'Treatment planning', 'Clinical integration'],
     pros: ['High accuracy', 'Clinical validation', 'Expert support'],
     cons: ['Enterprise only', 'Requires training'],
+    screenshots: ['https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: true,
+    useCases: ['Medical Diagnosis', 'Pathology Analysis', 'Clinical Research'],
     createdAt: '2024-03-15',
     updatedAt: '2024-12-01'
   },
@@ -878,6 +960,10 @@ export const aiTools: AITool[] = [
     features: ['Virtual consultations', 'Symptom checker', 'Health monitoring', 'Prescription management'],
     pros: ['24/7 availability', 'Affordable pricing', 'Easy to use'],
     cons: ['Limited to basic conditions', 'Not available everywhere'],
+    screenshots: ['https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: false,
+    useCases: ['Virtual Healthcare', 'Symptom Assessment', 'Health Monitoring'],
     createdAt: '2023-08-20',
     updatedAt: '2024-11-15'
   },
@@ -903,6 +989,10 @@ export const aiTools: AITool[] = [
     features: ['Market analysis', 'Risk assessment', 'Portfolio optimization', 'Real-time data'],
     pros: ['Comprehensive analytics', 'Real-time insights', 'Professional grade'],
     cons: ['Enterprise pricing', 'Complex setup'],
+    screenshots: ['https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: false,
+    useCases: ['Investment Analysis', 'Risk Management', 'Portfolio Optimization'],
     createdAt: '2023-05-10',
     updatedAt: '2024-10-20'
   },
@@ -927,6 +1017,10 @@ export const aiTools: AITool[] = [
     features: ['Algorithmic trading', 'API access', 'Paper trading', 'Real-time data'],
     pros: ['Free tier available', 'Developer-friendly', 'Good documentation'],
     cons: ['US markets only', 'Requires coding knowledge'],
+    screenshots: ['https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800&h=600&fit=crop'],
+    isFeatured: true,
+    isNew: false,
+    useCases: ['Algorithmic Trading', 'Investment Automation', 'Trading Strategy Development'],
     createdAt: '2023-02-14',
     updatedAt: '2024-12-05'
   },
@@ -952,6 +1046,10 @@ export const aiTools: AITool[] = [
     features: ['Contract analysis', 'Risk assessment', 'Compliance checking', 'Legal insights'],
     pros: ['High accuracy', 'Time-saving', 'Compliance focused'],
     cons: ['Enterprise only', 'Limited to contracts'],
+    screenshots: ['https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: false,
+    useCases: ['Contract Review', 'Legal Compliance', 'Risk Assessment'],
     createdAt: '2023-07-22',
     updatedAt: '2024-11-30'
   },
@@ -976,6 +1074,10 @@ export const aiTools: AITool[] = [
     features: ['Legal document generation', 'Dispute resolution', 'Compensation claims', 'Bureaucracy fighting'],
     pros: ['Very affordable', 'Easy to use', 'Wide range of services'],
     cons: ['Limited to simple cases', 'Not available everywhere'],
+    screenshots: ['https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=600&fit=crop'],
+    isFeatured: true,
+    isNew: false,
+    useCases: ['Legal Disputes', 'Consumer Protection', 'Document Generation'],
     createdAt: '2023-01-18',
     updatedAt: '2024-12-08'
   },
@@ -1001,6 +1103,10 @@ export const aiTools: AITool[] = [
     features: ['Video interviews', 'AI assessment', 'Candidate scoring', 'Interview scheduling'],
     pros: ['Streamlines hiring', 'Reduces bias', 'Scalable solution'],
     cons: ['Enterprise pricing', 'May feel impersonal'],
+    screenshots: ['https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: false,
+    useCases: ['Talent Acquisition', 'Interview Automation', 'Candidate Assessment'],
     createdAt: '2023-04-12',
     updatedAt: '2024-10-15'
   },
@@ -1025,6 +1131,10 @@ export const aiTools: AITool[] = [
     features: ['Neuroscience games', 'Bias-free matching', 'Predictive analytics', 'Diversity insights'],
     pros: ['Science-based', 'Reduces bias', 'Engaging assessments'],
     cons: ['Enterprise only', 'Complex implementation'],
+    screenshots: ['https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: true,
+    useCases: ['Talent Matching', 'Diversity Hiring', 'Candidate Assessment'],
     createdAt: '2024-02-28',
     updatedAt: '2024-12-03'
   },
@@ -1050,6 +1160,10 @@ export const aiTools: AITool[] = [
     features: ['Real-time personalization', 'A/B testing', 'Product recommendations', 'Customer segmentation'],
     pros: ['Powerful personalization', 'Proven ROI', 'Enterprise-grade'],
     cons: ['Complex setup', 'High cost'],
+    screenshots: ['https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: false,
+    useCases: ['E-commerce Personalization', 'Customer Experience', 'Conversion Optimization'],
     createdAt: '2023-06-05',
     updatedAt: '2024-11-20'
   },
@@ -1074,6 +1188,10 @@ export const aiTools: AITool[] = [
     features: ['Review management', 'Loyalty programs', 'SMS marketing', 'Visual UGC'],
     pros: ['Free tier available', 'Comprehensive features', 'Good integrations'],
     cons: ['Can be expensive at scale', 'Learning curve'],
+    screenshots: ['https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop'],
+    isFeatured: true,
+    isNew: false,
+    useCases: ['Review Management', 'Customer Loyalty', 'E-commerce Marketing'],
     createdAt: '2023-03-20',
     updatedAt: '2024-12-01'
   },
@@ -1099,6 +1217,10 @@ export const aiTools: AITool[] = [
     features: ['AI world building', 'Asset placement', 'Environment design', 'Creative assistance'],
     pros: ['Free for non-commercial', 'Innovative technology', 'Time-saving'],
     cons: ['Still in development', 'Learning curve'],
+    screenshots: ['https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&h=600&fit=crop'],
+    isFeatured: true,
+    isNew: true,
+    useCases: ['Game Development', 'Virtual World Creation', 'Asset Design'],
     createdAt: '2024-01-15',
     updatedAt: '2024-12-10'
   },
@@ -1123,6 +1245,10 @@ export const aiTools: AITool[] = [
     features: ['Custom AI models', 'Game asset generation', 'Style consistency', 'Batch processing'],
     pros: ['High-quality assets', 'Customizable models', 'Game-focused'],
     cons: ['Subscription required', 'Requires training data'],
+    screenshots: ['https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: false,
+    useCases: ['Game Asset Creation', 'Art Generation', 'Game Development'],
     createdAt: '2023-09-12',
     updatedAt: '2024-11-25'
   },
@@ -1148,6 +1274,10 @@ export const aiTools: AITool[] = [
     features: ['Instant home valuation', 'Market trends', 'Property history', 'Neighborhood insights'],
     pros: ['Free to use', 'Comprehensive data', 'User-friendly'],
     cons: ['US only', 'Valuation accuracy varies'],
+    screenshots: ['https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: false,
+    useCases: ['Home Valuation', 'Market Research', 'Property Investment'],
     createdAt: '2023-01-10',
     updatedAt: '2024-11-28'
   },
@@ -1172,6 +1302,10 @@ export const aiTools: AITool[] = [
     features: ['Predictive analytics', 'Lead scoring', 'Market insights', 'CRM integration'],
     pros: ['Advanced analytics', 'Agent-focused', 'Good support'],
     cons: ['Agent platform only', 'Complex pricing'],
+    screenshots: ['https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: false,
+    useCases: ['Real Estate Sales', 'Lead Generation', 'Market Analysis'],
     createdAt: '2023-04-18',
     updatedAt: '2024-10-22'
   },
@@ -1197,6 +1331,10 @@ export const aiTools: AITool[] = [
     features: ['Price predictions', 'Deal alerts', 'Booking platform', 'Trip planning'],
     pros: ['Accurate predictions', 'Money-saving', 'Easy to use'],
     cons: ['Limited destinations', 'Booking fees'],
+    screenshots: ['https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&h=600&fit=crop'],
+    isFeatured: true,
+    isNew: false,
+    useCases: ['Travel Planning', 'Price Optimization', 'Trip Booking'],
     createdAt: '2023-02-05',
     updatedAt: '2024-12-01'
   },
@@ -1221,6 +1359,10 @@ export const aiTools: AITool[] = [
     features: ['Auto itinerary creation', 'Travel alerts', 'Expense tracking', 'Sharing options'],
     pros: ['Automatic organization', 'Comprehensive features', 'Reliable'],
     cons: ['Premium features cost extra', 'Email parsing issues'],
+    screenshots: ['https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: false,
+    useCases: ['Travel Organization', 'Itinerary Planning', 'Business Travel'],
     createdAt: '2023-03-12',
     updatedAt: '2024-11-18'
   },
@@ -1246,6 +1388,10 @@ export const aiTools: AITool[] = [
     features: ['AI scheduling', 'Task prioritization', 'Calendar optimization', 'Team coordination'],
     pros: ['Intelligent scheduling', 'Time-saving', 'Great for busy professionals'],
     cons: ['Expensive', 'Learning curve'],
+    screenshots: ['https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop'],
+    isFeatured: true,
+    isNew: true,
+    useCases: ['Time Management', 'Task Scheduling', 'Productivity Optimization'],
     createdAt: '2024-01-20',
     updatedAt: '2024-12-08'
   },
@@ -1270,6 +1416,10 @@ export const aiTools: AITool[] = [
     features: ['Smart scheduling', 'Focus time protection', 'Habit tracking', 'Buffer time'],
     pros: ['Free tier available', 'Focus on deep work', 'Good integrations'],
     cons: ['Google Calendar only', 'Complex setup'],
+    screenshots: ['https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: false,
+    useCases: ['Calendar Optimization', 'Focus Time Management', 'Work-Life Balance'],
     createdAt: '2023-05-25',
     updatedAt: '2024-11-12'
   },
@@ -1295,6 +1445,10 @@ export const aiTools: AITool[] = [
     features: ['AI-powered search', 'Citation analysis', 'Paper recommendations', 'Research trends'],
     pros: ['Completely free', 'High-quality results', 'Academic focus'],
     cons: ['Academic papers only', 'Complex interface'],
+    screenshots: ['https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=600&fit=crop'],
+    isFeatured: true,
+    isNew: false,
+    useCases: ['Academic Research', 'Literature Review', 'Citation Analysis'],
     createdAt: '2023-01-08',
     updatedAt: '2024-12-05'
   },
@@ -1319,6 +1473,10 @@ export const aiTools: AITool[] = [
     features: ['Paper summarization', 'Data extraction', 'Research questions', 'Evidence synthesis'],
     pros: ['Powerful AI analysis', 'Research-focused', 'Time-saving'],
     cons: ['Limited free tier', 'Academic focus only'],
+    screenshots: ['https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: true,
+    useCases: ['Literature Review', 'Research Analysis', 'Evidence Synthesis'],
     createdAt: '2024-03-10',
     updatedAt: '2024-12-02'
   },
@@ -1344,6 +1502,10 @@ export const aiTools: AITool[] = [
     features: ['Content scheduling', 'Analytics dashboard', 'Team collaboration', 'AI suggestions'],
     pros: ['User-friendly', 'Good free tier', 'Reliable scheduling'],
     cons: ['Limited AI features', 'Expensive for teams'],
+    screenshots: ['https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: false,
+    useCases: ['Social Media Management', 'Content Scheduling', 'Team Collaboration'],
     createdAt: '2023-02-20',
     updatedAt: '2024-11-25'
   },
@@ -1368,6 +1530,10 @@ export const aiTools: AITool[] = [
     features: ['Social listening', 'Sentiment analysis', 'Trend tracking', 'Competitive analysis'],
     pros: ['Comprehensive analytics', 'Enterprise features', 'Good reporting'],
     cons: ['Expensive', 'Complex interface'],
+    screenshots: ['https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: false,
+    useCases: ['Social Media Analytics', 'Brand Monitoring', 'Competitive Analysis'],
     createdAt: '2023-04-15',
     updatedAt: '2024-10-30'
   },
@@ -1392,6 +1558,10 @@ export const aiTools: AITool[] = [
     features: ['Integration APIs', 'Analytics dashboard', 'Natural language processing', 'Multi-language support'],
     pros: ['Good value', 'Great support', 'Good integrations'],
     cons: ['Learning curve', 'No mobile app'],
+    screenshots: ['https://images.unsplash.com/photo-1615849776-256714041?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: false,
+    useCases: ['Product Development', 'Gaming', 'Data Analysis'],
     createdAt: '2024-02-03',
     updatedAt: '2024-05-11'
   },
@@ -1417,6 +1587,10 @@ export const aiTools: AITool[] = [
     features: ['High-quality translations', 'Document translation', 'API access', 'Multiple languages'],
     pros: ['Excellent accuracy', 'Fast translation', 'Good free tier'],
     cons: ['Limited languages vs Google', 'Premium for advanced features'],
+    screenshots: ['https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop'],
+    isFeatured: true,
+    isNew: false,
+    useCases: ['Document Translation', 'Business Communication', 'Content Localization'],
     createdAt: '2023-01-15',
     updatedAt: '2024-12-01'
   },
@@ -1441,6 +1615,10 @@ export const aiTools: AITool[] = [
     features: ['Real-time transcription', 'Speaker identification', 'Meeting summaries', 'Integration with Zoom'],
     pros: ['Accurate transcription', 'Good free tier', 'Easy to use'],
     cons: ['Limited free minutes', 'Requires good audio quality'],
+    screenshots: ['https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=600&fit=crop'],
+    isFeatured: true,
+    isNew: false,
+    useCases: ['Meeting Notes', 'Interview Transcription', 'Content Creation'],
     createdAt: '2023-03-20',
     updatedAt: '2024-11-28'
   },
@@ -1465,6 +1643,10 @@ export const aiTools: AITool[] = [
     features: ['AI avatars', 'Multiple languages', 'Custom branding', 'Video templates'],
     pros: ['Professional quality', 'No filming needed', 'Multiple languages'],
     cons: ['Expensive', 'Limited customization', 'Subscription required'],
+    screenshots: ['https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=600&fit=crop'],
+    isFeatured: true,
+    isNew: false,
+    useCases: ['Training Videos', 'Marketing Content', 'Educational Content'],
     createdAt: '2023-02-10',
     updatedAt: '2024-12-05'
   },
@@ -1489,6 +1671,10 @@ export const aiTools: AITool[] = [
     features: ['Screen recording', 'Auto-transcription', 'Video editing', 'Team sharing'],
     pros: ['Easy to use', 'Good free tier', 'Fast sharing'],
     cons: ['Limited editing features', 'Storage limits on free plan'],
+    screenshots: ['https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: false,
+    useCases: ['Team Communication', 'Product Demos', 'Training Content'],
     createdAt: '2023-04-05',
     updatedAt: '2024-11-20'
   },
@@ -1513,6 +1699,10 @@ export const aiTools: AITool[] = [
     features: ['120+ voices', 'Multiple languages', 'Voice cloning', 'Audio editing'],
     pros: ['Natural-sounding voices', 'Good variety', 'Easy to use'],
     cons: ['Subscription required', 'Limited free tier', 'Voice cloning is expensive'],
+    screenshots: ['https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: false,
+    useCases: ['Video Voiceovers', 'Podcast Creation', 'E-learning Content'],
     createdAt: '2023-05-18',
     updatedAt: '2024-10-25'
   },
@@ -1537,6 +1727,10 @@ export const aiTools: AITool[] = [
     features: ['5000+ app integrations', 'Multi-step workflows', 'AI suggestions', 'Team collaboration'],
     pros: ['Huge app library', 'Easy to use', 'Powerful automation'],
     cons: ['Can get expensive', 'Complex workflows need paid plans'],
+    screenshots: ['https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop'],
+    isFeatured: true,
+    isNew: false,
+    useCases: ['Business Automation', 'Data Sync', 'Workflow Optimization'],
     createdAt: '2023-01-12',
     updatedAt: '2024-12-01'
   },
@@ -1561,6 +1755,10 @@ export const aiTools: AITool[] = [
     features: ['Interactive dashboards', 'AI insights', 'Data connectors', 'Collaboration tools'],
     pros: ['Powerful visualizations', 'Enterprise-grade', 'Great for large datasets'],
     cons: ['Expensive', 'Steep learning curve', 'Resource intensive'],
+    screenshots: ['https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: false,
+    useCases: ['Business Intelligence', 'Data Analysis', 'Executive Reporting'],
     createdAt: '2023-03-08',
     updatedAt: '2024-11-15'
   },
@@ -1585,6 +1783,10 @@ export const aiTools: AITool[] = [
     features: ['AI course recommendations', 'Adaptive learning', 'Certificates', 'University partnerships'],
     pros: ['High-quality content', 'University partnerships', 'Good free courses'],
     cons: ['Certificates cost extra', 'Limited interaction', 'Self-paced can be challenging'],
+    screenshots: ['https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop'],
+    isFeatured: true,
+    isNew: false,
+    useCases: ['Professional Development', 'Skill Building', 'Career Advancement'],
     createdAt: '2023-02-15',
     updatedAt: '2024-12-03'
   },
@@ -1609,6 +1811,10 @@ export const aiTools: AITool[] = [
     features: ['Commission-free trading', 'AI insights', 'Portfolio analysis', 'Market news'],
     pros: ['No commission fees', 'Easy to use', 'Good for beginners'],
     cons: ['Limited research tools', 'Basic features', 'Customer service issues'],
+    screenshots: ['https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800&h=600&fit=crop'],
+    isFeatured: false,
+    isNew: false,
+    useCases: ['Personal Investing', 'Portfolio Management', 'Market Trading'],
     createdAt: '2023-04-20',
     updatedAt: '2024-11-28'
   },
@@ -1633,6 +1839,10 @@ export const aiTools: AITool[] = [
     features: ['AI product recommendations', 'Inventory optimization', 'Sales analytics', 'Multi-channel selling'],
     pros: ['Easy setup', 'Comprehensive features', 'Good app ecosystem'],
     cons: ['Transaction fees', 'Can get expensive with apps', 'Limited customization'],
+    screenshots: ['https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop'],
+    isFeatured: true,
+    isNew: false,
+    useCases: ['Online Store', 'Product Sales', 'Inventory Management'],
     createdAt: '2023-01-25',
     updatedAt: '2024-12-05'
   }

@@ -37,10 +37,6 @@ export const aiTools: AITool[] = [
       'Sometimes generates incorrect information',
       'Limited real-time data access'
     ],
-    screenshots: [
-      'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
-      'https://images.unsplash.com/photo-1676573409104-9c6faf52ce7f?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
-    ],
     isFeatured: true,
     isNew: false,
     useCases: ['Content Creation', 'Code Development', 'Research', 'Customer Support'],
@@ -82,10 +78,6 @@ export const aiTools: AITool[] = [
       'Requires Discord',
       'No free tier',
       'Learning curve for prompts'
-    ],
-    screenshots: [
-      'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
-      'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
     ],
     isFeatured: true,
     isNew: false,
@@ -129,10 +121,6 @@ export const aiTools: AITool[] = [
       'Sometimes suggests incorrect code',
       'Can make developers overly dependent'
     ],
-    screenshots: [
-      'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
-      'https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
-    ],
     isFeatured: true,
     isNew: false,
     useCases: ['Software Development', 'Code Review', 'Learning Programming', 'Rapid Prototyping'],
@@ -174,10 +162,6 @@ export const aiTools: AITool[] = [
       'Expensive for individuals',
       'Learning curve',
       'Output quality varies'
-    ],
-    screenshots: [
-      'https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
-      'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
     ],
     isFeatured: false,
     isNew: false,
@@ -221,10 +205,6 @@ export const aiTools: AITool[] = [
       'Fewer features than dedicated AI writers',
       'Can be slow sometimes'
     ],
-    screenshots: [
-      'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
-      'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
-    ],
     isFeatured: false,
     isNew: true,
     useCases: ['Note Taking', 'Project Planning', 'Content Creation', 'Meeting Notes'],
@@ -266,10 +246,6 @@ export const aiTools: AITool[] = [
       'Newer than competitors',
       'Limited integrations',
       'Conservative in responses'
-    ],
-    screenshots: [
-      'https://images.unsplash.com/photo-1677756119517-756a188d2d94?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
-      'https://images.unsplash.com/photo-1699042143285-6265ee8c50f6?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
     ],
     isFeatured: true,
     isNew: true,
@@ -313,10 +289,6 @@ export const aiTools: AITool[] = [
       'Limited customization',
       'Strict content policies'
     ],
-    screenshots: [
-      'https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
-      'https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
-    ],
     isFeatured: true,
     isNew: false,
     useCases: ['Digital Art', 'Marketing Visuals', 'Illustrations', 'Product Mockups'],
@@ -358,10 +330,6 @@ export const aiTools: AITool[] = [
       'Can be overly aggressive',
       'Premium features costly',
       'Sometimes misses context'
-    ],
-    screenshots: [
-      'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb',
-      'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop&crop=entropy&cs=tinysrgb'
     ],
     isFeatured: false,
     isNew: false,

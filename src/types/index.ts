@@ -18,7 +18,6 @@ export interface AITool {
   features: string[];
   pros: string[];
   cons: string[];
-  screenshots: string[];
   videoUrl?: string;
   isFeatured: boolean;
   isNew: boolean;
