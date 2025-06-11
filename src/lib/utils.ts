@@ -4,8 +4,11 @@ export function cn(...inputs: ClassValue[]) {
   return clsx(inputs);
 }
 
-export function formatPrice(price: string | undefined): string {
-  if (!price) return 'Free';
+export function formatPrice(price: string | number | undefined): string {
+  if (!price && price !== 0) return 'Free';
+  if (typeof price === 'number') {
+    return price === 0 ? 'Free' : `$${price}`;
+  }
   return price;
 }
 

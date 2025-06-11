@@ -22,7 +22,7 @@ export default function CategoriesPage() {
             </h1>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Discover the perfect AI tools for your needs. Our comprehensive directory 
-              is organized by use case and industry to help you find exactly what you're looking for.
+              is organized by use case and industry to help you find exactly what you&apos;re looking for.
             </p>
           </div>
 
@@ -34,7 +34,7 @@ export default function CategoriesPage() {
 
           <div className="mt-16 bg-white rounded-2xl p-8 text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Can't find what you're looking for?
+              Can&apos;t find what you&apos;re looking for?
             </h2>
             <p className="text-gray-600 mb-6">
               Submit a tool suggestion and help us grow our directory

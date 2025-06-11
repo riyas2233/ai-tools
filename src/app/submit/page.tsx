@@ -55,7 +55,7 @@ export default function SubmitToolPage() {
                 Thank You!
               </h1>
               <p className="text-lg text-gray-600 mb-8">
-                Your tool submission has been received. We'll review it and get back to you within 2-3 business days.
+                Your tool submission has been received. We&apos;ll review it and get back to you within 2-3 business days.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a

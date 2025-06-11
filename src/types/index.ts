@@ -8,9 +8,12 @@ export interface AITool {
   affiliateLink?: string;
   category: string;
   subcategories: string[];
-  tags: string[];  pricing: {
-    model: 'free' | 'freemium' | 'paid' | 'one-time';
-    price?: string;
+  tags: string[];
+  pricing: {
+    model: 'free' | 'freemium' | 'paid' | 'one-time' | 'subscription' | 'enterprise' | 'pay-per-use';
+    price?: string | number;
+    currency?: string;
+    period?: string;
     hasFreeTrial?: boolean;
   };
   rating: number;

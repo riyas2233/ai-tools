@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -19,18 +19,18 @@ export default function SearchPage() {
     sortBy: 'popular',
   });
 
-  useEffect(() => {
-    performSearch(filters);
-  }, []);
-
-  const performSearch = (newFilters: SearchFilters) => {
+  const performSearch = useCallback((newFilters: SearchFilters) => {
     setIsLoading(true);
     setFilters(newFilters);
     
     const searchResults = searchTools(newFilters);
     setResults(searchResults);
     setIsLoading(false);
-  };
+  }, []);
+
+  useEffect(() => {
+    performSearch(filters);
+  }, [performSearch, filters]);
 
   return (
     <div className="min-h-screen bg-gray-50">

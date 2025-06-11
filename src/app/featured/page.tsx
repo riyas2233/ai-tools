@@ -21,7 +21,7 @@ export default function FeaturedToolsPage() {
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-100 text-primary-700 rounded-full mb-6">
               <span className="text-lg">⭐</span>
-              <span className="font-medium">Editor's Choice</span>
+              <span className="font-medium">Editor&apos;s Choice</span>
             </div>
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
               Featured AI Tools
